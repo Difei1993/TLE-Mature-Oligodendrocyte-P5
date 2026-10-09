@@ -1,8 +1,22 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the software repository and the companion manuscript when published."
+message: "If you use this code, please cite this software repository and the companion manuscript when published."
 type: software
 title: "TLE Mature Oligodendrocyte P5: donor-aware analysis scripts"
 authors:
   - family-names: Wang
     given-names: Difei
+version: 1.0.0
 license: MIT
+repository-code: "https://github.com/Difei1993/TLE-Mature-Oligodendrocyte-P5"
+abstract: >-
+  Author-written analysis and figure scripts supporting a donor-aware
+  characterization of a mature oligodendrocyte P5 transcriptional program
+  in human temporal lobe epilepsy. This code-only repository does not
+  redistribute third-party source datasets or frozen input artifacts.
+  Full end-to-end scientific reproduction has not been tested.
+keywords:
+  - temporal lobe epilepsy
+  - mature oligodendrocyte
+  - transcriptomics
+  - donor-aware analysis
+  - bioinformatics

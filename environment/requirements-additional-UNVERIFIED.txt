@@ -1,0 +1,4 @@
+# Historical versions NOT RECORDED for these imports in the relevant source records.
+# Do not install latest and describe it as the original environment.
+matplotlib
+requests

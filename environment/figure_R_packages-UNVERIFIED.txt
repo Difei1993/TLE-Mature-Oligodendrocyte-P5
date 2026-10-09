@@ -1,0 +1,12 @@
+# Figure authoring package versions and interpreter were not recovered from a dated full session.
+# Analysis R 4.4.2 is not asserted as the figure authoring runtime.
+base64enc
+ggplot2
+grDevices
+grid
+jsonlite
+patchwork
+png
+ragg
+svglite
+xml2

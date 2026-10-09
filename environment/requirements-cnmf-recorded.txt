@@ -1,0 +1,9 @@
+# Python 3.10.20. Directly recorded subset, NOT a complete resolved lock.
+# Source: 04_tables/32B_CNMf_WORK_20260728_215801/_logs/32B1_software_versions.txt
+cnmf==1.7.1
+scanpy==1.11.5
+anndata==0.11.4
+scikit-learn==1.7.2
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3

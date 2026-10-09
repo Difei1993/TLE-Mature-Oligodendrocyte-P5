@@ -1,0 +1,10 @@
+Python 3.10.20
+cnmf 1.7.1
+scanpy 1.11.5
+anndata 0.11.4
+scikit-learn 1.7.2
+numpy 2.2.6
+scipy 1.15.3
+pandas 2.3.3
+Source SHA256: ebd5c457ef8da7ea81107afb4bf8ce0503a315555c66a209ec081be14a5327ec
+Original log has mixed encodings; only verified version values are transcribed.

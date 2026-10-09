@@ -1,0 +1,2 @@
+source_relative_path	source_sha256	artifact	relevant_lines	reason	execution
+P5_MATURE_OLIGODENDROCYTE_PURE_BIOINFO_RESTART/MANUSCRIPT_REVISION/WORK/draw_p5_figures.R	6d27aca39c24fffc43eaacb6c59fec1a2f7bbb17e605386a80c19df5932bad7a	MANUSCRIPT_REVISION/WORK/Figure4C_donor_coordinates.tsv	105	Earlier full figure generation is superseded; final generator consumes its archived coordinate artifact. Producer identified, not missing; original observation data are not redistributed.	NOT TESTED

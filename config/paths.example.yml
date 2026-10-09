@@ -1,0 +1,7 @@
+# Example only; scripts use environment variables, not an automatic YAML loader.
+# Choose a NEW reconstruction directory, never the original frozen analysis directory.
+work_root: /path/to/new/p5_reconstruction
+environment_variable: P5_WORK_ROOT
+optional_legacy_variable: TLE_PROJECT
+# Retain the original project-relative checkpoint layout documented in metadata/.
+# Provider data and environment executables must be obtained/restored separately.

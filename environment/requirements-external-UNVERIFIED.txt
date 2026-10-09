@@ -1,0 +1,6 @@
+# Historical versions NOT VERIFIED. These are direct static imports, not a lock.
+# Supply the original external H5AD environment before attempting reproduction.
+anndata
+numpy
+pandas
+scipy

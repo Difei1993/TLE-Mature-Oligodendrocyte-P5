@@ -1,0 +1,351 @@
+repository_script	language	package	historical_version	status	environment_installation
+scripts/01_p5_discovery/01_import_human_counts.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/01_import_human_counts.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/02_human_qc_overview.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/02_human_qc_overview.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/02_human_qc_overview.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/02_human_qc_overview.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/02_human_qc_overview.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/03_human_qc_threshold_comparison.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/03_human_qc_threshold_comparison.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/03_human_qc_threshold_comparison.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/03_human_qc_threshold_comparison.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/04_human_stage1_qc_preview.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/04_human_stage1_qc_preview.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/04_human_stage1_qc_preview.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/05_apply_human_stage1_qc.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/05_apply_human_stage1_qc.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/05_apply_human_stage1_qc.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	BiocParallel	1.40.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	SingleCellExperiment	1.28.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	scDblFinder	1.20.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/07_human_doublet_detection.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/09_apply_human_doublet_filter.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/09_apply_human_doublet_filter.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/09_apply_human_doublet_filter.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/11_human_normalization_pca_baseline.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/11_human_normalization_pca_baseline.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/11_human_normalization_pca_baseline.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/11_human_normalization_pca_baseline.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/11_human_normalization_pca_baseline.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/11_human_normalization_pca_baseline.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/12_human_unintegrated_umap_clustering.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/12_human_unintegrated_umap_clustering.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/12_human_unintegrated_umap_clustering.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/12_human_unintegrated_umap_clustering.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/12_human_unintegrated_umap_clustering.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/13_human_harmony_umap_clustering.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/13_human_harmony_umap_clustering.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/13_human_harmony_umap_clustering.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/13_human_harmony_umap_clustering.R	R	harmony	1.2.4	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/13_human_harmony_umap_clustering.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/13_human_harmony_umap_clustering.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/14_human_harmony_r0p4_marker_discovery.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/14_human_harmony_r0p4_marker_discovery.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/14_human_harmony_r0p4_marker_discovery.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/14_human_harmony_r0p4_marker_discovery.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/14_human_harmony_r0p4_marker_discovery.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/14_human_harmony_r0p4_marker_discovery.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/15_human_assign_level1_annotation.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/15_human_assign_level1_annotation.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/15_human_assign_level1_annotation.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/15_human_assign_level1_annotation.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/15_human_assign_level1_annotation.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	digest	0.6.39	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_prepare_balanced_cNMF_inputs.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/01_p5_discovery/32B0_convert_cnmf_mtx_to_h5ad.py	Python	anndata	0.11.4	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B0_convert_cnmf_mtx_to_h5ad.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B0_convert_cnmf_mtx_to_h5ad.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B0_convert_cnmf_mtx_to_h5ad.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B0_convert_cnmf_mtx_to_h5ad.py	Python	scipy	1.15.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2A_convert_sensitivity_inputs_to_h5ad.py	Python	anndata	0.11.4	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2A_convert_sensitivity_inputs_to_h5ad.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2A_convert_sensitivity_inputs_to_h5ad.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2A_convert_sensitivity_inputs_to_h5ad.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2A_convert_sensitivity_inputs_to_h5ad.py	Python	scipy	1.15.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	csv		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	os		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	shutil		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	subprocess		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	sys		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	time		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2B_run_final_100rep_unfiltered_consensus.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	csv		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	matplotlib		NOT RECORDED in cNMF log; downstream runtime NOT VERIFIED	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	os		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	scipy	1.15.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	shutil		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	subprocess		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	time		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/01_p5_discovery/32B2C_filtered_consensus_threshold_audit.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	anndata	0.11.4	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	csv		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	itertools		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	matplotlib		NOT RECORDED in cNMF log; downstream runtime NOT VERIFIED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	shutil		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	time		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3A_freeze_programs_and_donor_effects.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	matplotlib		NOT RECORDED in cNMF log; downstream runtime NOT VERIFIED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	re		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	scipy	1.15.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3B0_program_content_and_contamination_audit.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	matplotlib		NOT RECORDED in cNMF log; downstream runtime NOT VERIFIED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/32B3C_manuscript_safe_program_freeze.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	sys		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/34A0_glial_state_consensus_input_audit.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/02_donor_aware_statistics/P5_RESTART1_PUBLICATION_EVIDENCE_FREEZE.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/02_donor_aware_statistics/P5_RESTART1_PUBLICATION_EVIDENCE_FREEZE.R	R	tools	4.4.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/02_donor_aware_statistics/P5_RESTART6_MANUSCRIPT_EVIDENCE_FREEZE.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	anndata		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	argparse		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	csv		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	numpy		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	pandas		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	scipy		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/extract_seaad_target_donors.py	Python	typing		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	anndata		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	argparse		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	csv		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	gzip		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	numpy		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	pandas		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	scipy		EXTERNAL PYTHON HISTORICAL VERSION NOT VERIFIED	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	shutil		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	tempfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_export_seaad_formal_counts_for_R.py	Python	typing		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	future	1.70.0;1.75.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	harmony	1.2.4	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	stats	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_01_GSE140393_QC_AND_OLIGO_ANNOTATION.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_03_OLIGO_CLUSTER_MARKER_AUDIT.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	patchwork	1.3.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_04_APPLY_MANUAL_OLIGO_ANNOTATION.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	methods	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	stats	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_05_FROZEN_P5_DONOR_SCORING.R	R	utils	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	methods	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	stats	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_06_PROGRAM_SPECIFICITY_AND_PLATFORM_SENSITIVITY.R	R	tibble	3.3.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	Seurat	5.5.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	SeuratObject	5.4.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	methods	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_07_DOWNSAMPLING_AND_NUCLEAR_DETECTABILITY.R	R	stats	4.4.2	BASE R analysis version	NOT TESTED
+scripts/03_external_contextualization/35C_08B_GSE140393_OLIG2_NUCLEAR_BRIDGE_FIXED.R	R	dplyr	1.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_08B_GSE140393_OLIG2_NUCLEAR_BRIDGE_FIXED.R	R	ggplot2	4.0.3	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_08B_GSE140393_OLIG2_NUCLEAR_BRIDGE_FIXED.R	R	readr	2.2.0	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/03_external_contextualization/35C_08B_GSE140393_OLIG2_NUCLEAR_BRIDGE_FIXED.R	R	stats	4.4.2	BASE R analysis version	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	io		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	re		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	shutil		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1A_freeze_frozen_26E_catalog.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	math		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	matplotlib		NOT RECORDED in cNMF log; downstream runtime NOT VERIFIED	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	numpy	2.2.6	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	pandas	2.3.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	re		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	requests		NOT RECORDED in cNMF log; downstream runtime NOT VERIFIED	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	scipy	1.15.3	RECORDED cNMF environment subset; same runtime for downstream script NOT INDEPENDENTLY ATTESTED	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	time		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/32B3B1B_general_pathway_and_26E_interpretation.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/04_functional_annotation/P5_RESTART2_FUNCTIONAL_ARCHITECTURE.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	anndata	0.13.2	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	numpy	2.4.6	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	pandas	3.0.5	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	scipy	1.18.0	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	sys		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A1B2_frozen_program_salient_alignment.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	anndata	0.13.2	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	importlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	numpy	2.4.6	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	os		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	pandas	3.0.5	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	scipy	1.18.0	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	sys		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2_donor_level_program_mechanism_input_audit.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	anndata	0.13.2	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	decoupler	2.2.0	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	numpy	2.4.6	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	os		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	pandas	3.0.5	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	platform		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	subprocess		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	sys		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	time		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A2B_mechanism_environment_resource_freeze.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	__future__		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	anndata	0.13.2	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	datetime		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	decoupler	2.2.0	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	hashlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	itertools		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	json		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	numpy	2.4.6	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	os		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	pandas	3.0.5	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	pathlib		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	scipy	1.18.0	RECORDED in dated regulator resource pip freeze; execution environment compatibility NOT TESTED	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	sys		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/34A3_donor_level_intrinsic_tf_activity.py	Python	zipfile		STANDARD LIBRARY: same interpreter prerequisite	NOT TESTED
+scripts/05_regulator_analysis/P5_RESTART3_REGULATOR_MICROENVIRONMENT_PRIORITIZATION.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/06_glial_microenvironment/P5_RESTART3_FIX1_CROSS_LINEAGE_CONTEXT_REGENERATED.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/06_glial_microenvironment/P5_RESTART4_TARGETED_DONOR_AWARE_LR_FIX8_FAST.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/06_glial_microenvironment/P5_RESTART4_TARGETED_DONOR_AWARE_LR_FIX8_FAST.R	R	edgeR	4.4.2	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/07_spatial_reference/P5_RESTART5_GSE295237_SPATIAL_QUALIFICATION_FIX2_REGENERATED.R	R	Matrix	1.7-5	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/07_spatial_reference/P5_RESTART5_GSE295237_SPATIAL_QUALIFICATION_FIX2_REGENERATED.R	R	data.table	1.18.2.1	RECORDED in selected historical R sessions; inspect stage-specific record	NOT TESTED
+scripts/07_spatial_reference/P5_RESTART5_GSE295237_SPATIAL_QUALIFICATION_FIX2_REGENERATED.R	R	grDevices	4.4.2	BASE R analysis version	NOT TESTED
+scripts/07_spatial_reference/P5_RESTART5_GSE295237_SPATIAL_QUALIFICATION_FIX2_REGENERATED.R	R	utils	4.4.2	BASE R analysis version	NOT TESTED
+scripts/08_figure_generation/draw_final_polished.R	R	ggplot2		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/draw_final_polished.R	R	grDevices		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/draw_final_polished.R	R	grid		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/draw_final_polished.R	R	patchwork		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/draw_final_polished.R	R	ragg		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/draw_final_polished.R	R	svglite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/redraw_figure3_typography.R	R	ggplot2		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/redraw_figure3_typography.R	R	grDevices		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/redraw_figure3_typography.R	R	grid		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/redraw_figure3_typography.R	R	patchwork		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/redraw_figure3_typography.R	R	ragg		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/redraw_figure3_typography.R	R	svglite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	base64enc		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	grDevices		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	grid		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	jsonlite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	png		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	ragg		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	svglite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/format_submission_figures.R	R	xml2		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	base64enc		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	grDevices		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	grid		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	jsonlite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	png		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	ragg		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	svglite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_final_technical_figures.R	R	xml2		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/finalize_final_technical_svg_attributes.R	R	xml2		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/finalize_final_technical_pdf_boxes.R	R	jsonlite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	base64enc		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	grDevices		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	grid		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	jsonlite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	png		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	ragg		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	svglite		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED
+scripts/08_figure_generation/render_p5_review_figures.R	R	xml2		HISTORICAL FIGURE VERSION NOT VERIFIED	NOT TESTED

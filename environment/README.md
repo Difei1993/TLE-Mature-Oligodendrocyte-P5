@@ -1,0 +1,11 @@
+# Historical software environments
+
+These records describe earlier analyses. No package was installed and no scientific script was evaluated during staging. Current syntax-checker versions are recorded separately in the QC report and must not replace these records.
+
+The selected analysis R session records report **R 4.4.2**. `R_packages_by_session.tsv` preserves every recovered package/version token with the dated source filename and original SHA256. `R_version_summary.tsv` identifies any differences between stages. Core V3 entries are Seurat 5.5.0, SeuratObject 5.4.0, Matrix 1.7-5, scDblFinder 1.20.2, harmony 1.2.4, edgeR 4.4.2, limma 3.62.2 and data.table 1.18.2.1. These are observed versions; the file is not an installable `renv.lock`. Repository origins/Bioconductor release and every system library have not been reconstructed.
+
+The cNMF log records Python 3.10.20 and cNMF 1.7.1. `requirements-cnmf-recorded.txt` pins only packages actually listed in that log; it is a partial environment, not a complete transitive lock. The log proves the cNMF environment and does not by itself attest the runtime of every downstream statistics/annotation script. Windows launchers expect `04_tables/python_envs/cnmf310/Scripts/{python,cnmf}.exe` beneath the reconstruction root.
+
+The regulator resource freeze records Python 3.12.10 and decoupler 2.2.0. `requirements-regulator-frozen.txt` retains the full dated pip freeze. Python scripts 34A2/34A2B/34A3 also recognize the original `TLE_PROJECT` variable; set it to the same reconstruction root as `P5_WORK_ROOT` or leave it unset. CollecTRI is the **2026-07-29 resource snapshot**; an independent upstream release number was not verified. Downloading the current resource is not evidence of reproducing that snapshot.
+
+The external H5AD extraction/conversion runtime and the figure authoring runtime lack a located dated complete version freeze. Their direct dependencies are listed in files marked **UNVERIFIED**. Other Python stages may need matplotlib/requests, whose historical versions were not established in the relevant records. Every environment installation, compatibility check requiring imports, and pipeline rerun is **NOT TESTED**.

@@ -1,0 +1,32 @@
+{
+  "scope": "Recorded display-only runtime used for the approved S3-S5 exports. Not a historical biological-analysis lockfile or candidate full-rerun verification.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "R_coordinate_conversion": "R conversion only: 4.6.1",
+  "packages": {
+    "matplotlib": "3.10.9",
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "scipy": "1.18.0",
+    "pypdf": "6.10.0",
+    "lxml": "6.1.1",
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5",
+    "reportlab": "4.4.9"
+  },
+  "Word_export": "Microsoft Word 16.0 read-only",
+  "full_analysis_reproduction": "NOT TESTED; not run",
+  "original_environment_document_sha256": "f5892277511bf4b1018870e52585f0e5239551bc69674e681dc47fba7e9e5ecd",
+  "required_by_three_display_scripts": {
+    "python_packages": {
+      "matplotlib": "3.10.9",
+      "numpy": "2.3.5",
+      "Pillow": "12.3.0",
+      "scipy": "1.18.0",
+      "pypdf": "6.10.0"
+    },
+    "R": "methods::slot and readRDS; matching object classes/packages must be available locally",
+    "font": "Arial requested by the unchanged drawing code; font files are not redistributed"
+  },
+  "other_recorded_packages": "The remaining packages/Word entry supported prior document/table assembly, not the three display scripts."
+}

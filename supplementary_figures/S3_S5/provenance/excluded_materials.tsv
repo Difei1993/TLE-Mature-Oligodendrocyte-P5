@@ -1,0 +1,8 @@
+category	examples_or_patterns	status
+Provider expression/checkpoint data	*.rds; *.RDS; *.h5ad; *.h5; *.mtx*; GEO/SEA-AD expression copies	Not included; provider access/reuse conditions apply
+Private cell/coordinate exports	*_saved_umap.csv; *_coordinates_double.bin; input_exports/**; internal sample identifiers	Not included; require separate distribution review
+Unapproved third-party catalogs and database priors	Mixed-source gene catalogs; external gene-set/regulator/LR/database binaries	Not included; no new catalog or replacement list constructed
+Archived inputs and internal review packages	Historical PNG/PDF/SVG; frozen TSV/NPZ data; manuscript/review ZIP/DOCX/XLSX	Not included in the new code directory; historical identifiers/hashes only
+Third-party font/software binaries	System .ttf/.otf/.ttc; installed R/Python libraries; virtual environments	Not redistributed; list dependencies and font requirements
+Credentials and machine-specific configuration	.env*; keys/tokens; paths.local.json; absolute local/user paths	Excluded; public diff path lines redacted
+Local execution artifacts	_INTERNAL_QA/**; generated figures and source-data outputs; __pycache__/**; *.pyc	Excluded; outputs should stay outside the public repository

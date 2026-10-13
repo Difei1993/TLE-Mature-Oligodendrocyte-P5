@@ -1,0 +1,17 @@
+check	status	exit_code	scope
+Python plot/computation AST unchanged after path normalization	PASS	N/A	All original drawing statements and constants preserved
+Image helper function AST unchanged	PASS	N/A	All three image geometry/legend functions preserved
+R stored-coordinate conversion body unchanged	PASS	N/A	Exact text equality from jobs assignment through final recorded runtime
+build_p5_final_supplementary_figures.py_help	PASS	0	No drawing, scientific analysis or archived content read
+p5_display_image_layers.py_help	PASS	0	No drawing, scientific analysis or archived content read
+R_parse	PASS	0	No drawing, scientific analysis or archived content read
+R_help	PASS	0	No drawing, scientific analysis or archived content read
+builder_local_17_inputs_availability	PASS	0	No drawing, scientific analysis or archived content read
+builder_example_missing_inputs	PASS	2	No drawing, scientific analysis or archived content read
+builder_cli_overrides	PASS	0	No drawing, scientific analysis or archived content read
+R_existing_objects_availability	PASS	0	No drawing, scientific analysis or archived content read
+R_missing_objects_availability	PASS	2	No drawing, scientific analysis or archived content read
+Python_runtime_dependencies	PASS	0	No drawing, scientific analysis or archived content read
+Installed display dependencies match recorded versions	PASS	N/A	"{""matplotlib"": ""3.10.9"", ""numpy"": ""2.3.5"", ""Pillow"": ""12.3.0"", ""scipy"": ""1.18.0"", ""pypdf"": ""6.10.0""}"
+Candidate S3-S5 rendering / R data extraction	NOT TESTED	NOT EXECUTED	Only syntax/help/file availability checks run
+Independent full scientific pipeline reproduction	NOT TESTED	NOT EXECUTED	No biological re-analysis or statistical testing

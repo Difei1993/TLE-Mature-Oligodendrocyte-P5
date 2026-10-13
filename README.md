@@ -44,4 +44,9 @@ See [historical source gaps](docs/source_gaps.md) and [limitations](docs/known_l
 
 ## License and citation
 
-**Copyright © 2026 Difei Wang.** The original research code in `scripts/` is licensed under the [MIT License](LICENSE). Source-data and third-party materials retain their respective terms. Cite the companion manuscript when it is published and the software repository using [`CITATION.cff`](CITATION.cff) if appropriate. No manuscript DOI, software DOI, Zenodo deposit or formal GitHub release is claimed at preparation time.
+**Copyright © 2026 Difei Wang.** The original research code in `scripts/` is licensed under the [MIT License](LICENSE). Source-data and third-party materials retain their respective terms. Cite the companion manuscript when it is published and the software repository using [`CITATION.cff`](CITATION.cff) if appropriate. Version v1.0.0 was formally released on GitHub and archived on Zenodo with the version-specific DOI [10.5281/zenodo.23266083](https://doi.org/10.5281/zenodo.23266083). Version v1.0.1 adds the S3–S5 display-code helpers. The prior version DOI identifies v1.0.0 and must not be used as a v1.0.1 DOI. No published companion manuscript DOI is claimed.
+
+
+## Supplementary S3–S5 display code
+
+The separate [S3–S5 display directory](supplementary_figures/S3_S5/README.md) adds three helpers adapted from the approved later figure preparation. It preserves the 52 original scientific scripts. Version v1.0.1 contains these three display-only helpers. Its frozen plotting inputs are not redistributed; a code-only checkout cannot fully redraw the figures. Syntax/help/input-availability checks are not full scientific reproduction. The v1.0.0 release and version DOI 10.5281/zenodo.23266083 remain the prior-version reference. CITATION.cff identifies this version as 1.0.1; a new version DOI must be added only after the matching archive is verified.

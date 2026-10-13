@@ -1,0 +1,20 @@
+# PRIVACY-REDACTED DIFF: informational, not an apply-ready patch. Original SHA256 is in source_manifest.tsv.
+--- approved-original/p5_display_image_layers.py
++++ supplementary_figures/S3_S5/p5_display_image_layers.py
+@@ -1,3 +1,4 @@
++# SPDX-License-Identifier: MIT
+ """Presentation-only reuse of unchanged image data layers and labels."""
+ from pathlib import Path
+ from collections import Counter
+@@ -57,7 +58,10 @@
+     return {'image':im,'plot_box':(x0,y0,xr+1,yline+1),'xticks':xticks-x0,'yticks':yticks-y0,'percent':aligned,'bar_box':barbox,'bar_tick_y':tickcenters}
+
+ if __name__=='__main__':
+-    b=Path(r'<original absolute local path redacted>
++    import argparse
++    parser = argparse.ArgumentParser(description='Inspect geometry of three archived DotPlots; no expression statistics are recalculated.')
++    parser.add_argument('--analysis-root', type=Path, required=True, help='Local analysis archive root')
++    b = parser.parse_args().analysis_root.expanduser().resolve()
+     for p,nx,ny,npct in [('03_figures/human_level1_canonical_marker_dotplot.png',18,8,4),('03_figures/human_harmony_r0p4_dotplot_glial.png',17,19,4),('35C_P5_CROSS_REFERENCE/06_GSE140393_FINAL_MANUAL_OLIGO_ANNOTATION/figures/GSE140393_FINAL_OLIGO_MARKER_DOTPLOT.png',26,4,5)]:
+         d=dotplot_layers(b/p,nx,ny,npct)
+         print(p,d['plot_box'],'ticks',len(d['xticks']),len(d['yticks']),'percent',[(q['w'],q['h']) for q in d['percent']], 'bar',d['bar_box'])

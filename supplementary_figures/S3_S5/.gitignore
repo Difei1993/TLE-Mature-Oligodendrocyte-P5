@@ -1,0 +1,23 @@
+# Keep provider data and local rendering artifacts outside this directory.
+paths.local.json
+input_exports/
+local_inputs/
+local_outputs/
+outputs/
+_INTERNAL_QA/
+__pycache__/
+*.pyc
+*.rds
+*.RDS
+*.h5ad
+*.h5
+*.mtx*
+*_saved_umap.csv
+*_coordinates_double.bin
+*.npz
+*.png
+*.tiff
+*.pdf
+*.svg
+.env*
+*credentials*

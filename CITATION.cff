@@ -5,7 +5,7 @@ title: "TLE Mature Oligodendrocyte P5: donor-aware analysis scripts"
 authors:
   - family-names: Wang
     given-names: Difei
-version: 1.0.0
+version: 1.0.1
 license: MIT
 repository-code: "https://github.com/Difei1993/TLE-Mature-Oligodendrocyte-P5"
 abstract: >-
@@ -13,6 +13,8 @@ abstract: >-
   characterization of a mature oligodendrocyte P5 transcriptional program
   in human temporal lobe epilepsy. This code-only repository does not
   redistribute third-party source datasets or frozen input artifacts.
+  The software includes three display-only helpers for Supplementary Figures
+  S3-S5 that reuse archived plots, saved coordinates and frozen tables.
   Full end-to-end scientific reproduction has not been tested.
 keywords:
   - temporal lobe epilepsy

@@ -1,0 +1,6 @@
+{
+  "analysis_root": "../../../local_inputs/analysis_archive",
+  "frozen_table_dir": "../../../local_inputs/frozen_table_views",
+  "umap_export_dir": "../../../local_inputs/private_umap_exports",
+  "output_dir": "../../../local_outputs/p5_s3_s5"
+}
